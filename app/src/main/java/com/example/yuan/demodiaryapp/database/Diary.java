@@ -1,10 +1,12 @@
-package com.example.yuan.demodiaryapp.entity;
+package com.example.yuan.demodiaryapp.database;
+
+import org.litepal.crud.DataSupport;
 
 /**
  * Created by yuan on 2017/11/12.
  */
 
-public class Diary
+public class Diary extends DataSupport
 {
     //id
     private int diaryId;
